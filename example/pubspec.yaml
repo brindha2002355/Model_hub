@@ -1,0 +1,16 @@
+name: model_hub_example
+description: Example app for model_hub.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  model_hub:
+    path: ../
+
+flutter:
+  uses-material-design: true

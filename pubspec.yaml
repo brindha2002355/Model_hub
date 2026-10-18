@@ -1,0 +1,20 @@
+name: model_hub
+description: Download, verify (SHA-256), resume and cache large on-device AI model files such as TFLite, ONNX or GGUF.
+version: 0.1.0
+repository: https://github.com/yourname/model_hub
+
+environment:
+  sdk: ^3.3.0
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  crypto: ^3.0.3
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
